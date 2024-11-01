@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
+    <link rel="stylesheet" href="tchola.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        section {
+            margin-bottom: 40px;
+        }
+        h3 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+        }
+        h4 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+        }
+        .produtos {
+            margin-top: 20px;
+        }
+        .produto {
+            border-bottom: 2px solid #fff;
+            padding: 10px 0;
+        }
+        .produto:last-child {
+            border-bottom: none;
+        }
+        .menu {
+            position: relative;
+        }
+        .menu-content {
+            display: none;
+            position: absolute;
+            background-color: #0000008e;
+            border-radius: 10px;
+            margin-top: 5px;
+            min-width: 160px;
+            z-index: 1;
+        }
+        .menu:hover .menu-content {
+            display: block;
+        }
+        .menu-content li {
+            list-style: none;
+        }
+        .menu-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .menu-content a:hover {
+            background-color: #575757;
+        }
+        #catalogo h2 {
+            color: #ffffff;
+        }
+        #catalogo h3 {
+            color: #000000d3;
+        }
+        #catalogo h4 {
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <nav>
+                <img src="imagens/logo massa.png" alt="Logo" class="brand-icon">
+                <ul>
+                    <li class="menu">
+                        <button class="menu-button">Menu</button>
+                        <div class="menu-content">
+                            <a href="#catalogo">Catálogo</a>
+                            <a href="#about">Sobre</a>
+                            <a href="#features">Funcionalidades</a>
+                        </div>
+                    </li>
+                    <button>Login</button>
+                </ul>
+            </nav>
+            <div class="header-blok">
+                <div class="text">
+                    <h2 class="titulo">Equipamentos Médicos</h2>
+                    <p class="descricao">Inovação que transforma o cuidado com a saúde!</p>
+                </div>
+                <img src="imagens/eqpmed1.jpeg" alt="">
+            </div>
+        </div>
+    </header>
+    
+    <main id="catalogo">
+        <h2>Catálogo de Equipamentos Médicos</h2>
+        
+        <section>
+            <h4>Eletrônicos</h4>
+            <div class="produtos">
+                <div class="produto">
+                    <img src="imagens/EQPMED4.png" alt="Equipamento 4">
+                    <h3>Eletrc A8 Mindray</h3>
+                    <p>Sistema de anestesia com segurança completa.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed5.png" alt="Equipamento 5">
+                    <h3>Eletrc Sistema de câmera endoscópica HD3 Mindray</h3>
+                    <p>Vídeo Cirurgia.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed3.png" alt="Equipamento 3">
+                    <h3>Eletrc IDA 6</h3>
+                    <p>Fluke Biomedical Analisador de bomba de infusão.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed6.png" alt="Equipamento 6">
+                    <h3>Eletrc Tesla M3 MIPM</h3>
+                    <p>Monitor de Ressonância Magnética.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed7.png" alt="Equipamento 7">
+                    <h3>Eletrc Tesla DUO MIPM</h3>
+                    <p>Monitor de Ressonância Magnética.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed9.png" alt="Equipamento 9">
+                    <h3>Eletrc FT-2800 Keewell</h3>
+                    <p>Aquecedor de fluídos.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed13.png" alt="Equipamento 13">
+                    <h3>Eletrc LIFEPAK® 15 Monitor, Cardioversor e Desfibrilador</h3>
+                    <p>Desfibrilador.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed8.png" alt="Equipamento 8">
+                    <h3>QW-618 Keewell</h3>
+                    <p>Aquecedor de fluídos.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed11.png" alt="Equipamento 11">
+                    <h3>BeneFusion Série e Mindray</h3>
+                    <p>Bomba de Infusão.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h4>Instrumentos</h4>
+            <div class="produtos">
+                <div class="produto">
+                    <img src="imagens/eqpmed14.png" alt="Equipamento 14">
+                    <h3>Porta Agulha Mayo Hegar ABC - 30 cm</h3>
+                    <p>Instrumento.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed15.jpeg" alt="Equipamento 15">
+                    <h3>Afastador Farabeuf ABC Extra 15x150mm - unidade</h3>
+                    <p>Instrumento.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed20.jpg" alt="Equipamento 17">
+                    <h3>Porta Agulha Mayo-Hegar 16Cm | 6 1/4 Edlo</h3>
+                    <p>Instrumento.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmedbisturi.png" alt="Equipamento 21">
+                    <h3>Lâmina de Bisturi Labor Import Aço Carbono N°22 - unidade</h3>
+                    <p>Instrumento.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h4>Acessórios</h4>
+            <div class="produtos">
+                <div class="produto">
+                    <img src="imagens/eqpme12.png" alt="Equipamento 12">
+                    <h3>Shiley™ – Cânulas de traqueostomia Medtronic</h3>
+                    <p>Acessórios.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/OIP.jpeg" alt="Equipamento 18">
+                    <h3>Cuba para Assepsia em Inox Redonda 9X5.5cm - unidade</h3>
+                    <p>Acessórios.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed19.webp" alt="Equipamento 19">
+                    <h3>Bandeja para Mesa de Mayo Flexinox 48x32x1.5cm - unidade</h3>
+                    <p>Acessórios.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed21.webp" alt="Equipamento 20">
+                    <h3>Estojo Hospitalar em Aço Inox Perfurado 21X10X6cm - unidade.</h3>
+                    <p>Acessórios.</p>
+                </div>
+                <div class="produto">
+                    <img src="imagens/eqpmed16.jpeg" alt="Equipamento 16">
+                    <h3>Cuba Rim para Assepsia Inoxidável Marcatto Fortinox 580ml</h3>
+                    <p>Acessórios.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title-wrapper-about">
+                <p>Entenda tudo</p>
+                <h3>Sobre Nós</h3>
+            </div>
+            <div class="about-content">
+                <div class="left">
+                    <img src="imagens/tcholadacris-fotor-20241031164444.png" alt="About" />
+                </div>
+                <div class="middle right">
+                    <h3>Sobre nós</h3>
+                    <p>A Medcarm é uma empresa inovadora no setor de equipamentos médicos, dedicada a fornecer soluções de alta qualidade para profissionais da saúde. Com um portfólio diversificado, a Medcarm se destaca na fabricação e distribuição de dispositivos médicos, como monitores de sinais vitais, equipamentos de diagnóstico e produtos para terapia intensiva. Comprometida com a tecnologia de ponta, a empresa investe constantemente em pesquisa e desenvolvimento, garantindo que seus produtos atendam aos mais altos padrões de segurança e eficiência.</p>
+                </div>            
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="content">
+            <div class="title-wrapper-features">
+                <p>What you can do</p>
+                <h3>Features</h3>
+            </div>
+            <div class="feature-card-block">
+                <div class="feature-card-item">
+                    <img src="imagens/mundi.jpeg" alt="Feature" />
+                    <div class="feature-text-content">
+                        <h3>Importações</h3>
+                        <p>Trazemos as melhores marcas do mundo em produtos médicos, para território nacional.</p>
+                    </div>
+                </div>
+                <div class="feature-card-item">
+                    <img src="imagens/distrubuição.jpg" alt="Feature" />
+                    <div class="feature-text-content">
+                        <h3>Distribuição</h3>
+                        <p>Especializados em distribuir para todo território brasileiro.</p>
+                    </div>
+                </div>
+                <div class="feature-card-item">
+                    <img src="imagens/engrenagem.jpeg" alt="Feature" />
+                    <div class="feature-text-content">
+                        <h3>Fabricação</h3>
+                        <p>Fabricamos com alto padrão de qualidade e tecnologia no setor de produtos médicos.</p>
+                    </div>
+                </div>
+                <div class="feature-card-item">
+                    <img src="imagens/miss.jpg" alt="Feature" />
+                    <div class="feature-text-content">
+                        <h3>Missão</h3>
+                        <p>Fornecer equipamentos de alta qualidade que melhorem a experiência do paciente e apoiem os profissionais de saúde.</p>
+                    </div>
+                </div>
+                <div class="feature-card-item">
+                    <img src="imagens/visão.jpg" alt="Feature" />
+                    <div class="feature-text-content">
+                        <h3>Visão</h3>
+                        <p>Ser a líder em soluções inovadoras em equipamentos médicos, reconhecida pela excelência na saúde.</p>
+                    </div>
+                </div>
+                <div class="feature-card-item">
+                    <img src="imagens/valores.jpeg" alt="Feature" />
+                    <div class="feature-text-content">
+                        <h3>Valores</h3>
+                        <p>qualidade, inovação, ética, atendimento personalizado e responsabilidade social na promoção da saúde da comunidade.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="main">
+            <div class="content footer-links">
+                <div class="footer-company">
+                    <h4>Company</h4>
+                    <h6>About</h6>
+                    <h6>Contact</h6>
+                </div>
+                <div class="footer-rental">
+                    <h4>Rental</h4>
+                    <h6>Self-Drive</h6>
+                    <h6>Chauffer-Driven</h6>
+                    <h6>Help</h6>
+                </div>
+                <div class="footer-social">
+                    <h4>Stay connected</h4>
+                    <div class="social-icons">
+                        <img src="imagens/inst.png" alt="Instagram" />
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact US</h4>
+                    <h6>+55 41 99965-1847</h6>
+                    <h6>giovannadasilvacarmo22@gmail.com</h6>
+                    <h6>Walace Landal, Curitiba, Paraná</h6>
+                </div>
+            </div>
+        </div>
+        <div class="last">DevSuperior 2021 - Use like you want</div>
+    </footer>
+</body>
+</html>
